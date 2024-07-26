@@ -2,7 +2,7 @@ import React from "react";
 
 const StatisticsSection = () => {
   return (
-    <div className="flex flex-col gap-20 md:flex-row px-[26px] md:px-24 justify-between">
+    <div className="flex flex-col gap-20 md:flex-row px-[26px] md:px-24 mt-40 justify-between">
       <div className="w-full md:w-1/2">
         <p className="poppins-medium text-[#7D4283] statistics-paragraph1">
           We bear the responsibility of developing the sector.
