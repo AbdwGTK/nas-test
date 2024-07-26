@@ -2,9 +2,9 @@ import React from "react";
 
 const HeroSection = () => {
   return (
-    <div className="relative">
-      <div className=" px-3">
-        <div className="flex gap-0 sm:gap-40 ">
+    <div className="relative ">
+      <div className=" px-[18px] md:px-[88px]">
+        <div className="flex  gap-0 sm:gap-40 ">
           <div className="md:w-1/2">
             <div>
               <p

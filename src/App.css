@@ -27,6 +27,114 @@
   pointer-events: none;
 }
 
+.statistics-paragraph1 {
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.statistics-paragraph2 {
+  font-size: 16px;
+  line-height: 22px;
+}
+.pricing-headline {
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  opacity: 0.96;
+}
+.pricing-paragraph {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  opacity: 0.68;
+}
+
+.pricing-card {
+  background-color: #1a1a1a;
+}
+.pricing-card-active {
+  background-color: #7d4283;
+}
+.pricing-card-label {
+  font-size: 18.34px;
+  line-height: 27.51px;
+}
+.pricing-card-description {
+  font-size: 12.23px;
+  line-height: 18.34px;
+  color: #fff;
+}
+.pricing-card-label-active {
+  color: #fff;
+}
+.pricing-card-price {
+  font-size: 18.96px;
+  line-height: 28.44px;
+  color: #fff;
+}
+.pricing-card-duration {
+  font-size: 16.05px;
+  line-height: 24.07px;
+  color: #fff;
+  opacity: 68%;
+}
+.pricing-card-button {
+  background-color: #fff;
+  border-radius: 7.64px;
+  font-size: 15.28px;
+  line-height: 22.92px;
+  padding: 8px 16px;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .statistics-paragraph1 {
+    font-size: 62px;
+    line-height: 75px;
+  }
+  .statistics-paragraph2 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .pricing-card-button {
+    border-radius: 7.64px;
+    font-size: 22.81px;
+    line-height: 34.22px;
+    padding: 10px 28px;
+    text-align: center;
+  }
+  .pricing-card-price {
+    font-size: 28.3px;
+    line-height: 42.44px;
+    color: #fff;
+  }
+  .pricing-card-duration {
+    font-size: 23.95px;
+    line-height: 35.93px;
+  }
+  .pricing-card-label {
+    font-size: 27.37px;
+    line-height: 41.06px;
+  }
+  .pricing-card-description {
+    font-size: 18.25px;
+    line-height: 27.37px;
+    color: #fff;
+  }
+
+  .pricing-headline {
+    font-size: 66.99px;
+    line-height: 100.48px;
+    text-align: start;
+    opacity: 0.96;
+  }
+  .pricing-paragraph {
+    font-size: 18.25px;
+    line-height: 27.37px;
+    text-align: start;
+    opacity: 0.68;
+  }
+}
+
 .poppins-thin {
   font-family: "Poppins", sans-serif;
   font-weight: 100;
