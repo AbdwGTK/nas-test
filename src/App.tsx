@@ -6,6 +6,7 @@ import StatisticsSection from "./Sections/statistics";
 import PricingSection from "./Sections/Pricing";
 import AboutUsSection from "./Sections/AboutUs";
 import ServicesSection from "./Sections/Services";
+import NewsSection from "./Sections/News";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <AboutUsSection />
       <ServicesSection />
       <StatisticsSection />
+      <NewsSection />
       <PricingSection />
     </div>
   );
