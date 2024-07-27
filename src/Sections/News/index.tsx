@@ -89,7 +89,7 @@ const SubNewsCard = ({
 }) => {
   return (
     <div className="flex gap-4 md:gap-8">
-      <div className="h-[246px] w-[221px] flex-shrink-0">
+      <div className="h-[115px] w-[115px] md:h-[246px] md:w-[221px] flex-shrink-0">
         <img
           src={imageSrc}
           className="w-full h-full rounded-xl object-cover"

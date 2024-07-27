@@ -18,7 +18,7 @@ function App() {
       <ServicesSection />
       <StatisticsSection />
       <ChartsSection />
-      {/* <NewsSection /> */}
+      <NewsSection />
       <TestimonialSection />
       <PricingSection />
     </div>
