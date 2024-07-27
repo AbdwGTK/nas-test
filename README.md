@@ -11,7 +11,7 @@ This project was developed as part of the test for employment with Nas Al-Iraq H
    - Some assets were not implemented because they were not provided during the project. This includes specific resources, images, or other elements that were expected but not supplied.
 
 2. **Footer Links:**
-   - The footer links were not implemented as the provided links led to non-existent or irrelevant destinations. Therefore, placeholder links or alternative solutions were used in their place.
+   - The footer links were not implemented as the provided links led to non-existent or irrelevant destinations. Therefore, Implemntation is delayed until feedback.
 
 ## Setup Instructions
 
