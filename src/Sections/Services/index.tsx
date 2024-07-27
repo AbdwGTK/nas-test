@@ -1,6 +1,6 @@
 const ServicesSection = () => {
   return (
-    <div className="mt-40 px-8 md:px-28">
+    <div className="mt-40 px-8 md:px-28 min-h-screen">
       <div className="flex flex-col items-center w-full px-3">
         <p className="poppins-medium text-2xl md:text-6xl text-white text-center">
           Our services

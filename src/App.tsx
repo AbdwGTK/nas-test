@@ -9,6 +9,7 @@ import ServicesSection from "./Sections/Services";
 import NewsSection from "./Sections/News";
 import ChartsSection from "./Sections/Charts";
 import TestimonialSection from "./Sections/Testimonials";
+import Footer from "./Sections/Footer";
 
 function App() {
   return (
@@ -21,6 +22,8 @@ function App() {
       <NewsSection />
       <TestimonialSection />
       <PricingSection />
+
+      <Footer />
     </div>
   );
 }
