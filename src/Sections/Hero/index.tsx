@@ -1,4 +1,5 @@
 import React from "react";
+import SliderComponent from "./sliderComponent";
 
 const HeroSection = () => {
   return (
@@ -74,10 +75,13 @@ export default HeroSection;
 
 const PartnersSection = () => {
   return (
-    <div className="w-full mt-10 py-10 bg-[#161616] block md:absolute bottom-0">
+    <div className="w-full mt-10 py-10 bg-[#161616] block md:absolute bottom-0 overflow-hidden">
       <p className="poppins-medium text-center text-lg md:text-6xl text-white">
         Our Partners
       </p>
+      <div className="mt-6 md:mt-16 ">
+        <SliderComponent />
+      </div>
     </div>
   );
 };
