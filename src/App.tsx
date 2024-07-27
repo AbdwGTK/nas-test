@@ -10,10 +10,12 @@ import NewsSection from "./Sections/News";
 import ChartsSection from "./Sections/Charts";
 import TestimonialSection from "./Sections/Testimonials";
 import Footer from "./Sections/Footer";
+import Navbar from "./Sections/Navbar";
 
 function App() {
   return (
     <div className="landing-page">
+      <Navbar />
       <HeroSection />
       <AboutUsSection />
       <ServicesSection />
@@ -22,7 +24,6 @@ function App() {
       <NewsSection />
       <TestimonialSection />
       <PricingSection />
-
       <Footer />
     </div>
   );
