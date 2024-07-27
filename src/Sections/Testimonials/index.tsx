@@ -5,11 +5,13 @@ import SliderComponent from "./SliderComponent";
 
 const TestimonialSection: React.FC = () => {
   return (
-    <div className="bg-[#7b469b] pt-8 pb-12 max-w-[100vw] overflow-hidden md:pt-20 md:pb-28 ">
-      <h2 className="poppins-regular hidden md:block text-5xl text-center text-white mb-8 md:mb-20">
+    <div className="bg-[#7b469b] min-h-screen pt-8 pb-12 md:pt-20 md:pb-28 flex flex-col items-center justify-center max-w-[100vw] overflow-hidden">
+      <h2 className="poppins-regular text-5xl text-center text-white mb-8 md:mb-20">
         Our clients opinions
       </h2>
-      <SliderComponent />
+      <div className="w-full">
+        <SliderComponent />
+      </div>
     </div>
   );
 };

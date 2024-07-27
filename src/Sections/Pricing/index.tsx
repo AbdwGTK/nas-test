@@ -2,7 +2,7 @@ import React from "react";
 import PricingList from "./Components/PricingList";
 
 const PricingSection: React.FC = () => (
-  <div className="flex flex-col mt-8 md:mt-32 mx-6 md:mx-20 gap-8 md:gap-20 md:flex-row md:justify-between">
+  <div className="flex flex-col my-8 md:my-32 mx-6 md:mx-20 gap-8 md:gap-20 md:flex-row md:justify-between">
     <div className="w-full md:w-1/2">
       <p className="poppins-bold pricing-headline text-white">
         Simple pricing for your Business
